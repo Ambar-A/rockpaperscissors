@@ -9,3 +9,9 @@
 
 // DOCUMENT READY FUNCTION BELOW
 
+$("#shoot").click(function () {
+let userChoice = $("#input").val();
+let computerChoices = ["rock", "Paper", "scissors,"];
+    $("#userChoice").text(userChoice);
+
+});
